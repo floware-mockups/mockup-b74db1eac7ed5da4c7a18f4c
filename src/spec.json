@@ -1,0 +1,168 @@
+{
+  "title": "Gestione dei turni allo sportello",
+  "description": "Prototipo navigabile per monitorare i ticket giornalieri, filtrare le attese e registrare nuove emissioni con dati di fantasia.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "cruscotto",
+      "title": "Cruscotto giornaliero",
+      "description": "Panoramica dei turni di attesa e dell’attività agli sportelli.",
+      "metrics": [
+        {
+          "label": "Ticket emessi oggi",
+          "value": "24"
+        },
+        {
+          "label": "Ticket in attesa",
+          "value": "6"
+        },
+        {
+          "label": "Ticket serviti",
+          "value": "18"
+        },
+        {
+          "label": "Attesa media",
+          "value": "12 min"
+        }
+      ],
+      "columns": [
+        "Codice ticket",
+        "Servizio richiesto",
+        "Orario di arrivo",
+        "Sportello assegnato",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "L-041",
+          "Informazioni e orientamento",
+          "09:05",
+          "Sportello Nubi",
+          "In attesa"
+        ],
+        [
+          "V-042",
+          "Pratiche e modulistica",
+          "09:12",
+          "Sportello Vela",
+          "In attesa"
+        ],
+        [
+          "N-043",
+          "Ritiro documenti",
+          "09:18",
+          "Sportello Lumo",
+          "In servizio"
+        ],
+        [
+          "L-044",
+          "Informazioni e orientamento",
+          "09:23",
+          "Sportello Nubi",
+          "Servito"
+        ],
+        [
+          "V-045",
+          "Pratiche e modulistica",
+          "09:29",
+          "Sportello Vela",
+          "Servito"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "ticket",
+      "title": "Elenco ticket",
+      "description": "Consulta e filtra i ticket del giorno per codice, servizio, orario, sportello o stato.",
+      "metrics": [],
+      "columns": [
+        "Codice ticket",
+        "Servizio richiesto",
+        "Orario di arrivo",
+        "Sportello assegnato",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "L-041",
+          "Informazioni e orientamento",
+          "09:05",
+          "Sportello Nubi",
+          "In attesa"
+        ],
+        [
+          "V-042",
+          "Pratiche e modulistica",
+          "09:12",
+          "Sportello Vela",
+          "In attesa"
+        ],
+        [
+          "N-043",
+          "Ritiro documenti",
+          "09:18",
+          "Sportello Lumo",
+          "In servizio"
+        ],
+        [
+          "L-044",
+          "Informazioni e orientamento",
+          "09:23",
+          "Sportello Nubi",
+          "Servito"
+        ],
+        [
+          "V-045",
+          "Pratiche e modulistica",
+          "09:29",
+          "Sportello Vela",
+          "Servito"
+        ],
+        [
+          "N-046",
+          "Ritiro documenti",
+          "09:34",
+          "Sportello Lumo",
+          "In attesa"
+        ],
+        [
+          "L-047",
+          "Informazioni e orientamento",
+          "09:41",
+          "Sportello Nubi",
+          "Servito"
+        ],
+        [
+          "V-048",
+          "Pratiche e modulistica",
+          "09:47",
+          "Sportello Vela",
+          "In attesa"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuovo-ticket",
+      "title": "Emetti un ticket",
+      "description": "Registra un nuovo turno con i dati essenziali e assegna lo sportello.",
+      "metrics": [],
+      "columns": [
+        "Servizio richiesto",
+        "Orario di arrivo",
+        "Sportello assegnato",
+        "Priorità",
+        "Stato"
+      ],
+      "rows": [],
+      "form": [
+        "Servizio richiesto",
+        "Orario di arrivo",
+        "Sportello assegnato",
+        "Priorità",
+        "Stato"
+      ]
+    }
+  ]
+}
